@@ -1,0 +1,64 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: white;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #3498db;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#dice-container {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+#reset-button {
+  background-color: #e74c3c;
+}
+
+#winner-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3498db;
+}
